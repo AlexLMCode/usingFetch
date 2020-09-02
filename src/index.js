@@ -1,4 +1,5 @@
 //Toma t0to lo que esta en crud y llamalo crud luego se accede con punto
+/*
 import * as CRUD from './js/crud-provider';
 
 CRUD.getUsuario(1).then(console.log);
@@ -16,3 +17,8 @@ CRUD.actualizarUsuario(1, {
 }).then(console.log);
 
 CRUD.borrarUsuario(1).then(console.log)
+*/
+
+import {init} from "./js/archivos-page";
+
+init();
